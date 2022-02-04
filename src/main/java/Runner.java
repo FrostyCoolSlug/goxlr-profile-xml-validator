@@ -1,9 +1,7 @@
-import org.xml.sax.SAXException;
 import org.xmlunit.builder.DiffBuilder;
 import org.xmlunit.builder.Input;
 import org.xmlunit.diff.*;
 
-import java.io.*;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.Iterator;
