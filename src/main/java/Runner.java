@@ -10,6 +10,7 @@ public class Runner {
     public static void main(String[] args) {
         System.out.println("Beginning Validation..");
         int errors = Runner.compareXML();
+        System.out.println();
         System.out.println("Validation Complete, " + errors + " problems found.");
     }
 
@@ -45,6 +46,7 @@ public class Runner {
                             continue;
                         }
                     }
+
                     // Have we simply rounded a broken or extreme float?
                     try {
                         BigDecimal origin = new BigDecimal(controlText);
@@ -63,6 +65,23 @@ public class Runner {
                             continue;
                         }
                     } catch (NumberFormatException ignored) {
+                    }
+                }
+
+                if (difference.getComparison().getType() == ComparisonType.ELEMENT_NUM_ATTRIBUTES) {
+                    // There's a specific case when moving from v1 to v2 config where this would be valid (the attribute goes away)
+                    if (difference.getComparison().getControlDetails().getXPath().matches(".*sampleStack[A-C].*")) {
+                        if (((int) difference.getComparison().getControlDetails().getValue() == 1) &&
+                                ((int) difference.getComparison().getTestDetails().getValue() == 0)) {
+                            continue;
+                        }
+                    }
+                }
+
+                if (difference.getComparison().getType() == ComparisonType.ATTR_NAME_LOOKUP) {
+                    if (difference.getComparison().getControlDetails().getXPath().matches(".*sampleStack[A-C]stackSize")) {
+                        System.out.println();
+                        System.out.println("The following error can occur when upgrading a v1 profile to v2, if that's the case, ignore.");
                     }
                 }
 
