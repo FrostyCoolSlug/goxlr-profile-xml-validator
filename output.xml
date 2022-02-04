@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValueTreeRoot version="2" loudness="100" device="36832">
+  <browserPreviewTree file="" current_relative_time="0" browserPreviewTreeoffStyle="DIMMED" play_toggle="0" playing="0" />
+  <mixerTree chatToChat="0" musicToHP="8192" micToHP="8192" mixerTreeoffStyle="DIMMED" consoleLevel="128" gameToSampler="8192" headphoneLevel="255" micToStream="0" micToChat="8192" chatLevel="193" chatToLineOut="8192" gameLevel="158" chatToSampler="8192" consoleToLineOut="8192" consoleToSampler="8192" chatToHP="8192" lineInToSampler="8192" sampleLevel="128" micToLineOut="8192" musicToSampler="8192" gameToStream="8192" systemToHP="8192" consoleToHP="8192" lineInToChat="0" systemToLineOut="8192" systemToSampler="8192" musicToLineOut="8192" sampleToStream="8192" mic2headphoneSubLevel="255" sampleToLineOut="8192" lineOutLevel="255" micLevel="230" consoleToStream="8192" systemToChat="0" musicLevel="95" musicToStream="0" sampleToChat="8192" systemToStream="0" chatToStream="8192" sampleToSampler="0" sampleToHP="8192" gameToHP="8192" musicToChat="0" gameToChat="0" lineInToHP="8192" systemLevel="202" micToSampler="8192" lineInLevel="128" gameToLineOut="8192" lineInToStream="8192" lineInToLineOut="0" consoleToChat="0" />
+  <selectedContext selectedEffectBank="effects2" selectedSampleStack="sampleStackC" selectedContextoffStyle="DIMMED" selectedID="" numselected="0" />
+  <muteChat muteChatselected="0" muteChatcolour0="FF00FFFF" micIsAnActiveFader="4" coughButtonIsOn="1" coughButtonMuteSourceSelection="0" blink="0" muteChatcolour1="FFFFFFFF" coughButtonToggleSetting="1" muteChatstate="0" muteChatoffStyle="DIMMED" muteChatvelocity="127" />
+  <mute1 colorGroup="muteGroup" mute1colour1="FFFFFFFF" mute1velocity="127" mute1prevLevel="160" mute1state="0" mute1colour0="FF00FFFF" mute1Function="Mute All" mute1selected="0" mute1offStyle="DIMMED" mute1blink="0" fromMuteAllFlag="1" />
+  <mute2 mute2offStyle="DIMMED" mute2blink="0" mute2colour1="FFFFFFFF" mute2prevLevel="94" mute2selected="0" fromMuteAllFlag="1" mute2velocity="127" colorGroup="muteGroup" mute2colour0="FF00FFFF" mute2state="0" mute2Function="Mute All" />
+  <mute3 fromMuteAllFlag="0" mute3Function="Mute to Stream" mute3velocity="127" mute3selected="0" mute3offStyle="DIMMED" mute3state="0" colorGroup="muteGroup" mute3blink="0" mute3prevLevel="193" mute3colour0="FF00FFFF" mute3colour1="FFFFFFFF" />
+  <mute4 mute4selected="0" mute4colour1="FFFFFFFF" colorGroup="muteGroup" mute4blink="0" mute4offStyle="DIMMED" mute4velocity="127" mute4state="0" mute4prevLevel="202" mute4colour0="FF00FFFF" mute4Function="Mute All" />
+  <FaderMeter0 FaderMeter0Display="GRADIENT" FaderMeter0colour1="FF00FFFF" colorGroup="faderGroup" FaderMeter0colour0="FFFF0055" FaderMeter0offStyle="DIMMED" FaderMeter0listIndex="3" FaderMeter0selected="0" />
+  <FaderMeter1 FaderMeter1colour0="FFFF0055" FaderMeter1selected="0" FaderMeter1offStyle="DIMMED" FaderMeter1Display="GRADIENT" FaderMeter1listIndex="2" FaderMeter1colour1="FF00FFFF" colorGroup="faderGroup" />
+  <FaderMeter2 FaderMeter2listIndex="1" colorGroup="faderGroup" FaderMeter2selected="0" FaderMeter2colour0="FFFF0055" FaderMeter2Display="GRADIENT" FaderMeter2colour1="FF00FFFF" FaderMeter2offStyle="DIMMED" />
+  <FaderMeter3 FaderMeter3selected="0" colorGroup="faderGroup" FaderMeter3listIndex="6" FaderMeter3colour0="FFFF0055" FaderMeter3offStyle="DIMMED" FaderMeter3colour1="FF00FFFF" FaderMeter3Display="GRADIENT_METER" />
+  <effects1 effects1offStyle="DIMMED" effects1state="0" effects1Name="Big Verb" effects1colour0="FF00FFFF" effects1blink="0" effects1velocity="127" effects1colour1="FFFFFFFF" colorGroup="effectsGroup" effects1selected="0" />
+  <effects2 effects2colour1="FFFFFFFF" effects2state="1" effects2selected="0" effects2Name="Comms Radio" effects2blink="0" effects2velocity="127" colorGroup="effectsGroup" effects2offStyle="DIMMED" effects2colour0="FF00FFFF" />
+  <effects3 effects3Name="HardTune Music" effects3state="0" effects3selected="0" effects3blink="0" effects3colour1="FFFFFFFF" effects3velocity="127" effects3colour0="FF00FFFF" colorGroup="effectsGroup" effects3offStyle="DIMMED" />
+  <effects4 effects4selected="0" effects4velocity="127" effects4colour1="FFFFFFFF" colorGroup="effectsGroup" effects4offStyle="DIMMED" effects4blink="0" effects4colour0="FF00FFFF" effects4Name="Kid Robot" effects4state="0" />
+  <effects5 effects5velocity="127" effects5blink="0" colorGroup="effectsGroup" effects5colour1="FFFFFFFF" effects5colour0="FF00FFFF" effects5state="0" effects5Name="PitchDn Echo" effects5selected="0" effects5offStyle="DIMMED" />
+  <effects6 effects6state="0" effects6velocity="127" colorGroup="effectsGroup" effects6colour0="FF00FFFF" effects6colour1="FFFFFFFF" effects6selected="0" effects6Name="Tank" effects6blink="0" effects6offStyle="DIMMED" />
+  <scribble1 scribble1string0="" scribble1iconFile="lightbulb2.png" scribble1offStyle="DIMMED" scribble1colour0="FF00FFFF" scribble1selected="0" scribble1alpha="0.800000011920929" scribble1inverted="0" scribble1bitmap="scribble1.png" scribble1string1="Game" scribble1textSize="1" />
+  <scribble2 scribble2inverted="0" scribble2bitmap="scribble2.png" scribble2iconFile="music.png" scribble2alpha="0.800000011920929" scribble2selected="0" scribble2textSize="1" scribble2colour0="FF00FFFF" scribble2string0="" scribble2offStyle="DIMMED" scribble2string1="Music" />
+  <scribble3 scribble3textSize="1" scribble3alpha="0.800000011920929" scribble3selected="0" scribble3string0="" scribble3iconFile="person.png" scribble3inverted="0" scribble3colour0="FF00FFFF" scribble3bitmap="scribble3.png" scribble3offStyle="DIMMED" scribble3string1="Voice Chat" />
+  <scribble4 scribble4offStyle="DIMMED" scribble4textSize="1" scribble4string1="System" scribble4selected="0" scribble4bitmap="scribble4.png" scribble4iconFile="scale.png" scribble4alpha="0.800000011920929" scribble4inverted="0" scribble4string0="" scribble4colour0="FF00FFFF" />
+  <megaphoneEffect megaphoneEffectcolour0="FF00FFFF" megaphoneEffectstate="0" megaphoneEffectoffStyle="DIMMED" megaphoneEffectvelocity="127" megaphoneEffectselected="0" megaphoneEffectcolour1="FF00FFFF">
+    <megaphoneEffectpreset1 TRANS_DIST_TYPE="6" TRANS_PRESENCE_GAIN="8" TRANS_LP="200" TRANS_DIST_AMT="0" TRANS_FILTER_CONTROL="2" TRANS_HP="120" TRANS_PREGAIN="0" TRANS_FILTER="59" MEGAPHONE_STYLE="0" TRANS_POSTGAIN="2" megaphoneEffectstate="0" TRANS_DRIVE_POT_GAIN_COMP_MAX="0" TRANS_BEATBOX_ENABLE="0" TRANS_PRESENCE_FC="135" TRANS_PRESENCE_BW="7" TRANS_DRIVE_POT_GAIN_COMP_MID="0" />
+    <megaphoneEffectpreset2 TRANS_DIST_AMT="30" TRANS_POSTGAIN="5" TRANS_PRESENCE_FC="160" TRANS_DIST_TYPE="4" TRANS_BEATBOX_ENABLE="0" TRANS_PRESENCE_BW="5" TRANS_FILTER_CONTROL="1" megaphoneEffectstate="0" TRANS_LP="190" TRANS_HP="110" TRANS_DRIVE_POT_GAIN_COMP_MID="0" TRANS_PRESENCE_GAIN="7" TRANS_PREGAIN="0" TRANS_FILTER="59" TRANS_DRIVE_POT_GAIN_COMP_MAX="5" MEGAPHONE_STYLE="1" />
+    <megaphoneEffectpreset3 TRANS_PRESENCE_FC="168" TRANS_POSTGAIN="2" TRANS_FILTER="100" TRANS_DIST_TYPE="1" TRANS_PRESENCE_GAIN="0" TRANS_DRIVE_POT_GAIN_COMP_MAX="25" TRANS_BEATBOX_ENABLE="0" megaphoneEffectstate="0" TRANS_PRESENCE_BW="8" TRANS_DIST_AMT="50" TRANS_PREGAIN="0" MEGAPHONE_STYLE="3" TRANS_HP="50" TRANS_DRIVE_POT_GAIN_COMP_MID="1" TRANS_LP="238" TRANS_FILTER_CONTROL="1" />
+    <megaphoneEffectpreset4 TRANS_FILTER_CONTROL="3" TRANS_FILTER="59" TRANS_DRIVE_POT_GAIN_COMP_MAX="4" megaphoneEffectstate="0" TRANS_PREGAIN="10" TRANS_PRESENCE_FC="168" TRANS_PRESENCE_BW="8" TRANS_BEATBOX_ENABLE="0" TRANS_HP="78" TRANS_LP="192" TRANS_PRESENCE_GAIN="0" TRANS_POSTGAIN="2" TRANS_DIST_AMT="20" MEGAPHONE_STYLE="5" TRANS_DIST_TYPE="13" TRANS_DRIVE_POT_GAIN_COMP_MID="3" />
+    <megaphoneEffectpreset5 TRANS_FILTER_CONTROL="3" TRANS_PRESENCE_GAIN="10" TRANS_DRIVE_POT_GAIN_COMP_MAX="0" TRANS_PREGAIN="0" TRANS_DIST_TYPE="12" TRANS_DRIVE_POT_GAIN_COMP_MID="0" TRANS_PRESENCE_BW="5" MEGAPHONE_STYLE="2" TRANS_POSTGAIN="8" TRANS_BEATBOX_ENABLE="0" TRANS_FILTER="0" TRANS_LP="189" TRANS_HP="123" TRANS_DIST_AMT="40" megaphoneEffectstate="0" TRANS_PRESENCE_FC="165" />
+    <megaphoneEffectpreset6 TRANS_PRESENCE_GAIN="0" TRANS_HP="78" megaphoneEffectstate="1" TRANS_DIST_TYPE="13" TRANS_FILTER="59" TRANS_DRIVE_POT_GAIN_COMP_MID="3" TRANS_LP="192" TRANS_PRESENCE_BW="8" TRANS_BEATBOX_ENABLE="0" TRANS_DIST_AMT="0" TRANS_DRIVE_POT_GAIN_COMP_MAX="4" MEGAPHONE_STYLE="5" TRANS_POSTGAIN="-4" TRANS_PRESENCE_FC="168" TRANS_FILTER_CONTROL="3" TRANS_PREGAIN="10" />
+  </megaphoneEffect>
+  <robotEffect robotEffectoffStyle="DIMMED" robotEffectstate="0" robotEffectselected="0" robotEffectvelocity="127" robotEffectcolour0="FF00FFFF" robotEffectcolour1="FF00FFFF">
+    <robotEffectpreset1 ROBOT_VOCODER_MID_GAIN="5" ROBOT_STYLE="0" ROBOT_VOCODER_LOW_FREQ="88" ROBOT_VOCODER_HIGH_BW="0" ROBOT_VOCODER_LOW_BW="0" ROBOT_VOCODER_MID_BW="25" ROBOT_VOCODER_HIGH_FREQ="182" ROBOT_VOCODER_HIGH_GAIN="0" ROBOT_VOCODER_MID_FREQ="173" ROBOT_SYNTHOSC_PULSEWIDTH="50" ROBOT_DRY_MIX="-6" ROBOT_SYNTHOSC_WAVEFORM="0" ROBOT_VOCODER_GATE_THRESHOLD="-36" robotEffectstate="0" ROBOT_VOCODER_LOW_GAIN="-10" />
+    <robotEffectpreset2 ROBOT_VOCODER_HIGH_BW="0" ROBOT_VOCODER_MID_GAIN="5" ROBOT_VOCODER_HIGH_GAIN="0" ROBOT_VOCODER_MID_BW="25" ROBOT_VOCODER_LOW_BW="0" robotEffectstate="0" ROBOT_VOCODER_GATE_THRESHOLD="-36" ROBOT_VOCODER_LOW_FREQ="88" ROBOT_VOCODER_MID_FREQ="173" ROBOT_SYNTHOSC_PULSEWIDTH="50" ROBOT_SYNTHOSC_WAVEFORM="1" ROBOT_VOCODER_LOW_GAIN="-10" ROBOT_DRY_MIX="-6" ROBOT_STYLE="1" ROBOT_VOCODER_HIGH_FREQ="182" />
+    <robotEffectpreset3 ROBOT_VOCODER_LOW_GAIN="3" ROBOT_VOCODER_MID_FREQ="155" ROBOT_VOCODER_LOW_BW="32" ROBOT_VOCODER_GATE_THRESHOLD="-36" ROBOT_STYLE="0" ROBOT_VOCODER_MID_BW="23" ROBOT_VOCODER_HIGH_FREQ="240" ROBOT_VOCODER_MID_GAIN="-2" ROBOT_SYNTHOSC_WAVEFORM="0" ROBOT_DRY_MIX="-6" ROBOT_VOCODER_HIGH_BW="0" ROBOT_VOCODER_LOW_FREQ="87" robotEffectstate="0" ROBOT_SYNTHOSC_PULSEWIDTH="50" ROBOT_VOCODER_HIGH_GAIN="12" />
+    <robotEffectpreset4 ROBOT_VOCODER_LOW_GAIN="-10" ROBOT_VOCODER_MID_GAIN="5" ROBOT_VOCODER_GATE_THRESHOLD="-36" ROBOT_SYNTHOSC_WAVEFORM="2" ROBOT_STYLE="2" ROBOT_VOCODER_MID_FREQ="173" robotEffectstate="1" ROBOT_VOCODER_MID_BW="32" ROBOT_VOCODER_HIGH_BW="0" ROBOT_VOCODER_HIGH_GAIN="0" ROBOT_SYNTHOSC_PULSEWIDTH="50" ROBOT_VOCODER_LOW_BW="0" ROBOT_DRY_MIX="-6" ROBOT_VOCODER_LOW_FREQ="88" ROBOT_VOCODER_HIGH_FREQ="182" />
+    <robotEffectpreset5 ROBOT_VOCODER_MID_GAIN="5" ROBOT_VOCODER_LOW_BW="0" ROBOT_SYNTHOSC_WAVEFORM="2" ROBOT_VOCODER_HIGH_BW="0" ROBOT_VOCODER_LOW_GAIN="-10" ROBOT_VOCODER_HIGH_GAIN="0" ROBOT_STYLE="2" ROBOT_SYNTHOSC_PULSEWIDTH="50" ROBOT_DRY_MIX="-6" ROBOT_VOCODER_MID_BW="25" ROBOT_VOCODER_LOW_FREQ="88" ROBOT_VOCODER_HIGH_FREQ="182" ROBOT_VOCODER_GATE_THRESHOLD="-36" robotEffectstate="0" ROBOT_VOCODER_MID_FREQ="173" />
+    <robotEffectpreset6 ROBOT_VOCODER_LOW_BW="32" ROBOT_VOCODER_MID_BW="23" ROBOT_STYLE="1" ROBOT_VOCODER_LOW_GAIN="3" ROBOT_VOCODER_HIGH_FREQ="240" ROBOT_VOCODER_HIGH_GAIN="12" ROBOT_VOCODER_MID_GAIN="-2" ROBOT_VOCODER_MID_FREQ="155" ROBOT_VOCODER_GATE_THRESHOLD="-36" ROBOT_SYNTHOSC_PULSEWIDTH="50" ROBOT_DRY_MIX="-6" ROBOT_SYNTHOSC_WAVEFORM="1" robotEffectstate="0" ROBOT_VOCODER_HIGH_BW="0" ROBOT_VOCODER_LOW_FREQ="87" />
+  </robotEffect>
+  <hardtuneEffect hardtuneEffectoffStyle="DIMMED" hardtuneEffectstate="0" hardtuneEffectcolour1="FF00FFFF" hardtuneEffectselected="0" hardtuneEffectcolour0="FF00FFFF" HARDTUNE_SOURCE="ALL" hardtuneEffectvelocity="127">
+    <hardtuneEffectpreset1 HARDTUNE_PITCH_AMT="0" HARDTUNE_AMOUNT="70" HARDTUNE_RATE="20" HARDTUNE_SOURCE="ALL" HARDTUNE_SCALE="5" hardtuneEffectstate="0" HARDTUNE_KEYSOURCE="0" HARDTUNE_STYLE="0" HARDTUNE_WINDOW="20" />
+    <hardtuneEffectpreset2 hardtuneEffectstate="0" HARDTUNE_SCALE="5" HARDTUNE_SOURCE="MUSIC" HARDTUNE_AMOUNT="53" HARDTUNE_RATE="99" HARDTUNE_PITCH_AMT="0" HARDTUNE_WINDOW="20" HARDTUNE_KEYSOURCE="0" HARDTUNE_STYLE="1" />
+    <hardtuneEffectpreset3 HARDTUNE_KEYSOURCE="0" HARDTUNE_SCALE="5" HARDTUNE_RATE="100" HARDTUNE_WINDOW="60" HARDTUNE_PITCH_AMT="0" HARDTUNE_STYLE="2" hardtuneEffectstate="0" HARDTUNE_AMOUNT="100" HARDTUNE_SOURCE="MUSIC" />
+    <hardtuneEffectpreset4 HARDTUNE_STYLE="2" HARDTUNE_AMOUNT="100" HARDTUNE_WINDOW="60" HARDTUNE_SCALE="5" hardtuneEffectstate="0" HARDTUNE_PITCH_AMT="0" HARDTUNE_RATE="100" HARDTUNE_KEYSOURCE="0" HARDTUNE_SOURCE="MUSIC" />
+    <hardtuneEffectpreset5 HARDTUNE_PITCH_AMT="0" HARDTUNE_SCALE="5" hardtuneEffectstate="0" HARDTUNE_WINDOW="60" HARDTUNE_RATE="100" HARDTUNE_STYLE="2" HARDTUNE_KEYSOURCE="0" HARDTUNE_AMOUNT="100" HARDTUNE_SOURCE="MUSIC" />
+    <hardtuneEffectpreset6 HARDTUNE_STYLE="1" HARDTUNE_SCALE="5" HARDTUNE_RATE="99" HARDTUNE_PITCH_AMT="0" hardtuneEffectstate="0" HARDTUNE_KEYSOURCE="0" HARDTUNE_AMOUNT="53" HARDTUNE_WINDOW="20" />
+  </hardtuneEffect>
+  <reverbEncoder reverbEncodercolour2="FF00FFFF" reverbEncoderoffStyle="DIMMED" reverbEncodercolour1="FF00FFFF" reverbEncodercolour0="00000000" reverbEncoderstate="0" colorGroup="encoderGroup" active_set="0" reverbEncoderselected="0">
+    <reverbEncoderpreset1 REVERB_EARLYLEVEL="0" REVERB_DRYLEVEL="0" REVERB_HICOLOR="-39" REVERB_TYPE="1" REVERB_KNOB_POSITION="0" REVERB_DECAY="150" REVERB_LOCOLOR="10" REVERB_PREDELAY="100" REVERB_MODDEPTH="21" REVERB_TAILLEVEL="-2" REVERB_MODSPEED="-3" REVERB_STYLE="5" REVERB_DIFFUSE="0" REVERB_HIFACTOR="21" />
+    <reverbEncoderpreset2 REVERB_DIFFUSE="0" REVERB_MODDEPTH="8" REVERB_TAILLEVEL="-2" REVERB_HICOLOR="-17" REVERB_KNOB_POSITION="3" REVERB_DRYLEVEL="0" REVERB_DECAY="115" REVERB_STYLE="3" REVERB_LOCOLOR="21" REVERB_TYPE="9" REVERB_HIFACTOR="-22" REVERB_EARLYLEVEL="0" REVERB_PREDELAY="15" REVERB_MODSPEED="-3" />
+    <reverbEncoderpreset3 REVERB_EARLYLEVEL="0" REVERB_TYPE="9" REVERB_TAILLEVEL="-2" REVERB_MODSPEED="-3" REVERB_KNOB_POSITION="13" REVERB_PREDELAY="15" REVERB_HICOLOR="-17" REVERB_HIFACTOR="-22" REVERB_STYLE="3" REVERB_DIFFUSE="0" REVERB_MODDEPTH="8" REVERB_DRYLEVEL="0" REVERB_LOCOLOR="21" REVERB_DECAY="115" />
+    <reverbEncoderpreset4 REVERB_HICOLOR="-32" REVERB_DECAY="77" REVERB_PREDELAY="0" REVERB_LOCOLOR="0" REVERB_TYPE="9" REVERB_MODSPEED="0" REVERB_EARLYLEVEL="-1" REVERB_HIFACTOR="-6" REVERB_MODDEPTH="0" REVERB_TAILLEVEL="-3" REVERB_DRYLEVEL="0" REVERB_KNOB_POSITION="13" REVERB_DIFFUSE="0" REVERB_STYLE="0" />
+    <reverbEncoderpreset5 REVERB_STYLE="2" REVERB_DECAY="106" REVERB_HIFACTOR="0" REVERB_DIFFUSE="0" REVERB_LOCOLOR="0" REVERB_MODSPEED="0" REVERB_TAILLEVEL="0" REVERB_KNOB_POSITION="0" REVERB_DRYLEVEL="0" REVERB_EARLYLEVEL="0" REVERB_HICOLOR="0" REVERB_MODDEPTH="0" REVERB_TYPE="12" REVERB_PREDELAY="15" />
+    <reverbEncoderpreset6 REVERB_TAILLEVEL="0" REVERB_HIFACTOR="16" REVERB_DECAY="3" REVERB_KNOB_POSITION="18" REVERB_LOCOLOR="-27" REVERB_HICOLOR="26" REVERB_TYPE="9" REVERB_MODSPEED="21" REVERB_PREDELAY="100" REVERB_STYLE="3" REVERB_DIFFUSE="43" REVERB_MODDEPTH="8" REVERB_EARLYLEVEL="0" REVERB_DRYLEVEL="0" />
+  </reverbEncoder>
+  <echoEncoder echoEncodercolour1="FF00FFFF" echoEncodercolour0="00000000" echoEncodercolour2="FF00FFFF" echoEncoderselected="0" active_set="0" echoEncoderstate="0" colorGroup="encoderGroup" echoEncoderoffStyle="DIMMED">
+    <echoEncoderpreset1 DELAY_FB_CONTROL="30" DELAY_TIME_R="500" DELAY_XFB_R_L="0" DELAY_FB_R="50" DELAY_STYLE="0" DELAY_FILTER_STYLE="0" DELAY_TEMPO="149" DELAY_KNOB_POSITION="0" DELAY_SOURCE="1" DELAY_DIV_R="9" DELAY_XFB_L_R="0" DELAY_TIME_L="500" DELAY_DIV_L="9" DELAY_FB_L="50" />
+    <echoEncoderpreset2 DELAY_TEMPO="120" DELAY_FB_CONTROL="50" DELAY_FILTER_STYLE="0" DELAY_XFB_L_R="0" DELAY_FB_R="50" DELAY_TIME_R="110" DELAY_DIV_L="18" DELAY_KNOB_POSITION="4" DELAY_SOURCE="0" DELAY_STYLE="4" DELAY_DIV_R="18" DELAY_FB_L="50" DELAY_TIME_L="110" DELAY_XFB_R_L="0" />
+    <echoEncoderpreset3 DELAY_SOURCE="1" DELAY_DIV_L="10" DELAY_KNOB_POSITION="7" DELAY_FB_L="50" DELAY_DIV_R="13" DELAY_FB_R="0" DELAY_STYLE="3" DELAY_XFB_L_R="100" DELAY_FB_CONTROL="30" DELAY_FILTER_STYLE="0" DELAY_TIME_L="333" DELAY_TIME_R="166" DELAY_TEMPO="120" DELAY_XFB_R_L="0" />
+    <echoEncoderpreset4 DELAY_TIME_L="500" DELAY_TIME_R="500" DELAY_DIV_R="9" DELAY_TEMPO="117" DELAY_STYLE="0" DELAY_XFB_L_R="0" DELAY_FB_CONTROL="30" DELAY_FB_L="50" DELAY_DIV_L="9" DELAY_FB_R="50" DELAY_SOURCE="1" DELAY_XFB_R_L="0" DELAY_KNOB_POSITION="12" DELAY_FILTER_STYLE="0" />
+    <echoEncoderpreset5 DELAY_KNOB_POSITION="21" DELAY_XFB_L_R="0" DELAY_FB_CONTROL="30" DELAY_TIME_R="166" DELAY_TEMPO="120" DELAY_XFB_R_L="0" DELAY_DIV_R="13" DELAY_FB_L="50" DELAY_DIV_L="13" DELAY_SOURCE="1" DELAY_FILTER_STYLE="0" DELAY_STYLE="2" DELAY_TIME_L="166" DELAY_FB_R="50" />
+    <echoEncoderpreset6 DELAY_SOURCE="0" DELAY_FB_L="50" DELAY_KNOB_POSITION="6" DELAY_TIME_L="110" DELAY_DIV_R="18" DELAY_TIME_R="110" DELAY_STYLE="4" DELAY_DIV_L="18" DELAY_FILTER_STYLE="0" DELAY_TEMPO="120" DELAY_XFB_L_R="0" DELAY_FB_R="50" DELAY_XFB_R_L="0" DELAY_FB_CONTROL="11" />
+  </echoEncoder>
+  <pitchEncoder active_set="0" pitchEncodercolour2="FF00FFFF" pitchEncoderoffStyle="DIMMED" pitchEncodercolour1="FF00FFFF" colorGroup="encoderGroup" pitchEncoderselected="0" pitchEncoderstate="0" pitchEncodercolour0="00000000">
+    <pitchEncoderpreset1 PITCH_KNOB_POSITION="24" PITCH_SHIFT_THRESHOLD="-36" PITCH_SHIFT_INST_RATIO="100" PITCH_RANGE="12" PITCH_STYLE="0" />
+    <pitchEncoderpreset2 PITCH_STYLE="0" PITCH_KNOB_POSITION="0" PITCH_SHIFT_THRESHOLD="-36" PITCH_RANGE="12" PITCH_SHIFT_INST_RATIO="100" />
+    <pitchEncoderpreset3 PITCH_KNOB_POSITION="-14" PITCH_STYLE="1" PITCH_SHIFT_THRESHOLD="-26" PITCH_RANGE="24" />
+    <pitchEncoderpreset4 PITCH_RANGE="24" PITCH_STYLE="1" PITCH_KNOB_POSITION="12" PITCH_SHIFT_THRESHOLD="-26" />
+    <pitchEncoderpreset5 PITCH_STYLE="0" PITCH_RANGE="12" PITCH_SHIFT_THRESHOLD="-26" PITCH_KNOB_POSITION="-14" />
+    <pitchEncoderpreset6 PITCH_SHIFT_THRESHOLD="-26" PITCH_RANGE="24" PITCH_STYLE="1" PITCH_KNOB_POSITION="0" />
+  </pitchEncoder>
+  <genderEncoder colorGroup="encoderGroup" active_set="0" genderEncoderselected="0" genderEncodercolour0="00000000" genderEncodercolour1="FF00FFFF" genderEncodercolour2="FF00FFFF" genderEncoderstate="0" genderEncoderoffStyle="DIMMED">
+    <genderEncoderpreset1 GENDER_STYLE="0" GENDER_KNOB_POSITION="24" GENDER_RANGE="12" />
+    <genderEncoderpreset2 GENDER_KNOB_POSITION="0" GENDER_STYLE="1" GENDER_RANGE="25" />
+    <genderEncoderpreset3 GENDER_KNOB_POSITION="-14" GENDER_STYLE="0" GENDER_RANGE="12" />
+    <genderEncoderpreset4 GENDER_RANGE="50" GENDER_STYLE="2" GENDER_KNOB_POSITION="17" />
+    <genderEncoderpreset5 GENDER_STYLE="2" GENDER_KNOB_POSITION="-10" GENDER_RANGE="50" />
+    <genderEncoderpreset6 GENDER_STYLE="1" GENDER_KNOB_POSITION="0" GENDER_RANGE="25" />
+  </genderEncoder>
+  <sampleTopLeft sampleTopLeftstate="Empty" sampleTopLeftselected="0" sampleTopLeftcolour0="FF00FFFF" sampleTopLeftoffStyle="DIMMED" sampleTopLeftcolour1="00000000" sampleTopLeftvelocity="127" colorGroup="samplesGroup">
+    <sampleStackC />
+    <sampleStackB />
+    <sampleStackA track_0NormalizedGain="11.265972137451172" track_0EndPosition="100" sampleStackAstackSize="1" playbackMode="1" track_0="Walkie Talkie Static.wav" track_0StartPosition="0" />
+  </sampleTopLeft>
+  <sampleTopRight colorGroup="samplesGroup" sampleTopRightselected="0" sampleTopRightoffStyle="DIMMED" sampleTopRightcolour1="00000000" sampleTopRightvelocity="127" sampleTopRightcolour0="FF00FFFF" sampleTopRightstate="Empty">
+    <sampleStackB />
+    <sampleStackA track_0="Dictionary_1.wav" track_0NormalizedGain="0.37440386414527893" sampleStackAstackSize="1" track_0EndPosition="100" track_0StartPosition="0" />
+    <sampleStackC />
+  </sampleTopRight>
+  <sampleBottomLeft sampleBottomLeftstate="Empty" sampleBottomLeftcolour1="00000000" sampleBottomLeftselected="0" sampleBottomLeftvelocity="127" colorGroup="samplesGroup" sampleBottomLeftcolour0="FF00FFFF" sampleBottomLeftoffStyle="DIMMED">
+    <sampleStackA track_1StartPosition="0" track_2EndPosition="100" track_0="sonic_1.wav" track_1="lesson.wav" track_0EndPosition="100" track_0NormalizedGain="0.45130670070648193" sampleStackAstackSize="3" track_1EndPosition="100" track_2="DJ_1.wav" track_2NormalizedGain="0.3110351860523224" track_2StartPosition="0" track_1NormalizedGain="0.38898876309394836" track_0StartPosition="0" />
+    <sampleStackB />
+    <sampleStackC />
+  </sampleBottomLeft>
+  <sampleBottomRight colorGroup="samplesGroup" sampleBottomRightcolour1="00000000" sampleBottomRightoffStyle="DIMMED" sampleBottomRightvelocity="127" sampleBottomRightcolour0="FF00FFFF" sampleBottomRightstate="Empty" sampleBottomRightselected="0">
+    <sampleStackB />
+    <sampleStackA track_0StartPosition="0" track_0NormalizedGain="0.3110351860523224" sampleStackAstackSize="1" track_0="DJ_2.wav" track_0EndPosition="100" />
+    <sampleStackC />
+  </sampleBottomRight>
+  <sampleClear sampleClearcolour1="00000000" sampleClearcolour0="FF00FFFF" sampleClearselected="0" colorGroup="samplesGroup" sampleClearstate="0" sampleClearoffStyle="DIMMED" sampleClearvelocity="127">
+    <sampleStackB />
+    <sampleStackC />
+    <sampleStackA />
+  </sampleClear>
+  <swear swearselected="0" swearcolour0="FF00FFFF" swearcolour1="FFFFFFFF" swearoffStyle="DIMMED" swearvelocity="127" swearstate="0" />
+  <globalColour globalColourcolour1="00000000" globalColouroffStyle="DIMMED" globalColourcolour0="FF00FFFF" />
+  <logoX logoXselected="0" logoXvelocity="127" logoXstate="0" logoXcolour1="FFFFFFFF" logoXcolour0="FF00FFFF" logoXoffStyle="DIMMED" />
+  <fxClear fxClearoffStyle="DIMMED" fxClearselected="0" fxClearcolour1="FF00FFFF" fxClearvelocity="127" fxClearstate="0" fxClearcolour0="FF00FFFF" />
+  <sampleBankA sampleBankAcolour2="00000000" sampleBankAcolour1="FFFFFFFF" sampleBankAvelocity="127" sampleBankAstate="0" sampleBankAoffStyle="DIMMED" sampleBankAcolour0="FF00FFFF" sampleBankAselected="0" />
+  <sampleBankB sampleBankBcolour1="FFFFFFFF" sampleBankBcolour0="FF00FFFF" sampleBankBcolour2="00000000" sampleBankBselected="0" sampleBankBstate="0" sampleBankBoffStyle="DIMMED" sampleBankBvelocity="127" />
+  <sampleBankC sampleBankCoffStyle="DIMMED" sampleBankCcolour1="FFFFFFFF" sampleBankCstate="1" sampleBankCcolour2="00000000" sampleBankCcolour0="FF00FFFF" sampleBankCselected="0" sampleBankCvelocity="127" />
+  <AppTree ConnectedDeviceID="36832" />
+</ValueTreeRoot>
