@@ -9,11 +9,13 @@ import java.math.RoundingMode;
 import java.util.Iterator;
 
 public class Runner {
-    public static void main(String args[]) {
-        Runner.compareXML();
+    public static void main(String[] args) {
+        System.out.println("Beginning Validation..");
+        int errors = Runner.compareXML();
+        System.out.println("Validation Complete, " + errors + " problems found.");
     }
 
-    public static void compareXML() {
+    public static int compareXML() {
         Diff diff = DiffBuilder.compare(Input.fromFile("profile.xml"))
                 .withTest(Input.fromFile("output.xml"))
                 .withNodeMatcher(new DefaultNodeMatcher(ElementSelectors.byNameAndText))
@@ -21,12 +23,10 @@ public class Runner {
                 .build();
 
         Iterator<Difference> iter = diff.getDifferences().iterator();
+        var errors = 0;
         while (iter.hasNext()) {
             Difference difference = iter.next();
-            if (difference.getResult() == ComparisonResult.SIMILAR) {
-                // Our tags and attributes may be out of order, this results in a 'SIMILAR' result, we don't care.
-                continue;
-            } else {
+            if (difference.getResult() != ComparisonResult.SIMILAR) {
                 // Do we have different Attribute Values?
                 if (difference.getComparison().getType() == ComparisonType.ATTR_VALUE) {
                     String controlText = (String) difference.getComparison().getControlDetails().getValue();
@@ -40,6 +40,13 @@ public class Runner {
                         }
                     }
 
+                    // Between Version 1 and 2, the 'muteFunction' attribute value was changed from 'All' to 'Mute All'
+                    // but the GoXLR UI will persist the old value if present, I change it.
+                    if (difference.getComparison().getControlDetails().getXPath().matches(".*mute[0-9]Function")) {
+                        if (controlText.equals("All") && testText.equals("Mute All")) {
+                            continue;
+                        }
+                    }
                     // Have we simply rounded a broken or extreme float?
                     try {
                         BigDecimal origin = new BigDecimal(controlText);
@@ -57,12 +64,15 @@ public class Runner {
                         if (scaledValue.compareTo(target) == 0) {
                             continue;
                         }
-                    } catch (NumberFormatException ignored) {}
+                    } catch (NumberFormatException ignored) {
+                    }
                 }
 
                 // Something is different!
-                System.out.println(difference.toString());
+                System.out.println(difference);
+                errors++;
             }
         }
+        return errors;
     }
 }
