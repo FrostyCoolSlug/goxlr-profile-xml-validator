@@ -9,11 +9,11 @@ import java.math.RoundingMode;
 import java.util.Iterator;
 
 public class Runner {
-    public static void main(String args[]) throws FileNotFoundException, SAXException, IOException {
+    public static void main(String args[]) {
         Runner.compareXML();
     }
 
-    public static void compareXML() throws SAXException, IOException {
+    public static void compareXML() {
         Diff diff = DiffBuilder.compare(Input.fromFile("profile.xml"))
                 .withTest(Input.fromFile("output.xml"))
                 .withNodeMatcher(new DefaultNodeMatcher(ElementSelectors.byNameAndText))
